@@ -25,6 +25,9 @@ log:31.209986 31.089991 47181
 ```
 // step 1:
 // setup GPIO
+#define MLX90614_SDA_GPIO 13 // sda for MLX90614
+#define MLX90614_SCL_GPIO 12 // scl for MLX90614
+#define MLX90614_VCC_GPIO 14 // vcc for MLX90614
 gpio_pad_select_gpio(MLX90614_VCC_GPIO);
 gpio_set_direction(MLX90614_VCC_GPIO, GPIO_MODE_OUTPUT);
 gpio_set_level(MLX90614_VCC_GPIO, 1);
