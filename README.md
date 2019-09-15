@@ -3,10 +3,6 @@ Offical driver modified for esp_idf. base on https://github.com/melexis/mlx90614
 ## Tested with IDF_VER: v3.3
 ```
 This is ESP32 chip with 2 CPU cores, WiFi/BT/BLE, silicon revision 1, 2MB external flash
-W (315) MLX90614_Module: Read failed
-W (315) MLX90614_Module: Read failed
-W (325) MLX90614_Module: Read failed
-log:0.000000 -273.149994 37683
 log:31.269983 31.049982 26205
 log:31.249994 31.049982 26205
 log:31.129999 31.070002 36701
