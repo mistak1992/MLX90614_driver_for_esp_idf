@@ -1,5 +1,5 @@
 # MLX90614_driver_for_esp_idf
-Offical driver modified for esp_idf
+Offical driver modified for esp_idf. base on https://github.com/melexis/mlx90614-library
 ## Tested with IDF_VER: v3.3
 ```
 This is ESP32 chip with 2 CPU cores, WiFi/BT/BLE, silicon revision 1, 2MB external flash
