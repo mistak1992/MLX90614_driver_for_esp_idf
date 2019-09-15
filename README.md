@@ -1,6 +1,6 @@
 # MLX90614_driver_for_esp_idf
 Offical driver modified for esp_idf
-##Tested with IDF_VER: v3.3
+## Tested with IDF_VER: v3.3
 ```
 This is ESP32 chip with 2 CPU cores, WiFi/BT/BLE, silicon revision 1, 2MB external flash
 W (315) MLX90614_Module: Read failed
@@ -25,7 +25,7 @@ log:31.209986 31.089991 47181
 log:31.209986 31.089991 47181
 ```
 
-##How to use
+## How to use
 ```
 // step 1:
 // setup GPIO
