@@ -1,0 +1,18 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "B:/esp-idf/components/bootloader/subproject",
+    "build_dir":          "B:/esp/MLX90614/build/bootloader",
+    "config_file":        "B:/esp/MLX90614/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v3.3",
+    "phy_data_partition": "",
+    "monitor_baud" : "115200",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : " B:/esp-idf/components/efuse/Kconfig B:/esp-idf/components/esp32/Kconfig B:/esp-idf/components/log/Kconfig B:/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : " B:/esp-idf/components/bootloader/Kconfig.projbuild B:/esp-idf/components/esptool_py/Kconfig.projbuild B:/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "soc", "esp32", "log", "bootloader", "spi_flash", "micro-ecc", "efuse", "bootloader_support", "main", "esptool_py", "partition_table" ],
+    "build_component_paths" : [ "B:/esp-idf/components/soc", "B:/esp-idf/components/esp32", "B:/esp-idf/components/log", "B:/esp-idf/components/bootloader", "B:/esp-idf/components/spi_flash", "B:/esp-idf/components/micro-ecc", "B:/esp-idf/components/efuse", "B:/esp-idf/components/bootloader_support", "B:/esp-idf/components/bootloader/subproject/main", "B:/esp-idf/components/esptool_py", "B:/esp-idf/components/partition_table" ]
+}

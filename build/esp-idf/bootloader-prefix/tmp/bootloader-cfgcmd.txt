@@ -1,0 +1,1 @@
+cmd='C:/Program Files/CMake/bin/cmake.exe;-DSDKCONFIG=B:/esp/MLX90614/sdkconfig;-DIDF_PATH=B:/esp-idf;-DSECURE_BOOT_SIGNING_KEY=B:/esp/MLX90614;-DEXTRA_COMPONENT_DIRS=B:/esp-idf/components/bootloader;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'
